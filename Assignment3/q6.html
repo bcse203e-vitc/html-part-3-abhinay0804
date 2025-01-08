@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Report</title>
+    <style>
+        body {
+            background-color: rgb(214, 182, 198);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        table {
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>ALIBABA</h1>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <caption><stong>Sales Report Table</stong></caption>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Sales Person</th>
+                <th>Product</th>
+                <th>Quantity Sold</th>
+                <th>Unit Price</th>
+                <th>Total Sales(INR)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Tambaram</td>
+                <td rowspan="2">Rajesh</td>
+                <td>Kettle</td>
+                <td>40</td>
+                <td>800</td>
+                <td>32,000</td>
+            </tr>
+            <tr>
+                <td>Ptron BT Speaker</td>
+                <td>50</td>
+                <td>1500</td>
+                <td>75,000</td>
+            </tr>
+            <tr>
+                <td>Kelambakkam</td>
+                <td>Raghu</td>
+                <td rowspan="2">Sparkx Footwear</td>
+                <td>90</td>
+                <td>800</td>
+                <td>72,000</td>
+            </tr>
+            <tr>
+                <td>Vandalur</td>
+                <td>Krishna</td>
+                <td>80</td>
+                <td>800</td>
+                <td>64,000</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="background-color: azure;">Siruseri</td>
+                <td>Raju</td>
+                <td>Study Table</td>
+                <td>300</td>
+                <td>400</td>
+                <td>12,000</td>
+            </tr>
+            <tr>
+                <td>Pawan</td>
+                <td>Garnier Facewash</td>
+                <td>600</td>
+                <td>210</td>
+                <td>1,26,000</td>
+            </tr>
+            <tr>
+                <th colspan="5">Total</th>
+                <td>3,81,000</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
