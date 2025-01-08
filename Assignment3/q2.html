@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Level Organization Chart</title>
+    <style>
+        body {
+            background-color: #f7edf3;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f7d8f3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Organization Hierarchy</h1>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Department Name</th>
+                <th>Manager</th>
+                <th>Number of Employees</th>
+                <th colspan="2">Budget (in Cr)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"><b>HR</b></td>
+                <td>Raghupathi</td>
+                <td>50</td>
+                <td>10</td>
+                <td>5%</td>
+            </tr>
+            <tr>
+                <td>Raghava</td>
+                <td>55</td>
+                <td>30</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td rowspan="2"><b>Marketing</b></td>
+                <td>Rajaram</td>
+                <td>20</td>
+                <td>15</td>
+                <td>7.5%</td>
+            </tr>
+            <tr>
+                <td>Easwaran</td>
+                <td>20</td>
+                <td>15</td>
+                <td>7.5%</td>
+            </tr>
+            <tr>
+                <td><b>Engineering</b></td>
+                <td>Krishna</td>
+                <td>65</td>
+                <td>100</td>
+                <td>50%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
